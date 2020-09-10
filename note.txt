@@ -1,0 +1,19 @@
+﻿新建nuxt-hello文件夹
+进入nuxt-hello文件夹 => npm init -y -> yarn add nuxt -> yarn
+
+->修改package.json
+    package.json:
+      "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start"
+    },
+->
+新建pages目录
+    -> index.vue
+    -> about.vue
+    -> nuxt.config.js
+    => components -> twitter-head-card.vue
+    => yarn add lru-cache
+
+nuxt 解决SEO
